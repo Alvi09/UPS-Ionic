@@ -1,0 +1,114 @@
+// Toolbar --------------------------------
+#toolbar {
+  padding: 30px 0px;
+}
+
+// Containers --------------------------------
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+// Logos --------------------------------
+#parcelPro_memberBanner {
+  width: 100;
+  height: auto;
+  margin: auto 25px;
+}
+
+#parcelPro_logo {
+  width: 150px;
+  height: 33px;
+  // margin: auto;
+  // margin-left: 50px;
+}
+
+#ups-logo {
+  width: 45px;
+  height: 28px;
+  padding: 0px;
+  position: relative;
+  bottom: 5px;
+}
+
+#fedex-logo {
+  width: 80px;
+  height: 17px;
+  padding: 0px;
+}
+
+#ships-with-container {
+  width: 300px;
+  margin: 25px auto 25px auto;
+}
+
+// Dashboard items --------------------------------
+#dashboard {
+  margin: auto;
+  background-color: #F5F5F5;
+}
+
+#main-items {
+  margin: auto;
+}
+
+.dashboard-items-wrapper {
+  font-size: 16px;
+}
+
+#dashboard-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dashboard-item-wrapper {
+  margin-top: 30px;
+}
+
+
+.dashboard-item {
+  box-shadow: 3px 3px 3px 1px hsl(0deg 0% 83% / 50%);
+  padding: 35px 50px 0px 50px;
+  height: 100%;
+  background-color: white;
+  border-radius: 3px;
+  margin-left: 30px;
+  min-width: 500px;
+  min-height: 250px;
+}
+
+.dashboard-item h4 {
+  font-size: 16px;
+  font-weight: 550;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.label-button {
+  font-size: 16px;
+}

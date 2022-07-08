@@ -1,0 +1,7 @@
+{
+  "name": "ups-project",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
