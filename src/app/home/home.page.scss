@@ -29,9 +29,22 @@
   text-decoration: none;
 }
 
+#title-container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 100px;
+  flex-wrap: wrap;
+}
+
 // Logos --------------------------------
+#banner-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 #parcelPro_memberBanner {
-  width: 100;
+  max-width: 1800px;
+  width: 100%;
   height: auto;
   margin: auto 25px;
 }
@@ -96,7 +109,7 @@
   background-color: white;
   border-radius: 3px;
   margin-left: 30px;
-  min-width: 500px;
+  min-width: 400px;
   min-height: 250px;
 }
 
@@ -110,5 +123,8 @@
 }
 
 .label-button {
-  font-size: 16px;
+  margin-top: 10px;
+  font-size: 13px;
+  width: 200px;
+  height: 45px;
 }
